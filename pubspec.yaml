@@ -1,0 +1,70 @@
+name: win4cash
+description: A new Flutter project.
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+#  google_fonts: ^6.1.0
+  another_flushbar: ^1.12.30
+#  flutter_svg:
+  carousel_slider: ^4.2.1
+  intl: ^0.19.0
+  shared_preferences:
+  provider: ^6.1.1
+  fluttertoast: ^8.2.4
+  dio: ^5.4.0
+  flutter_widget_from_html:
+  flutter_share: ^2.0.0
+  url_launcher:
+  webview_flutter: 3.0.4
+  image_picker: ^1.0.4
+  just_audio: ^0.9.36
+  audioplayers:
+  animated_text_kit: ^4.2.1
+  flutter_tawkto: ^0.0.3
+  dotted_border: ^2.1.0
+  connectivity_plus: ^5.0.2
+  url_strategy: ^0.2.0
+  share_plus: ^7.2.2
+  http:
+  percent_indicator: ^3.0.0
+  socket_io_client: ^2.0.3+1
+  draggable_fab: ^0.1.4
+  add_to_cart_animation: ^2.0.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/music/
+    - assets/images/
+    - assets/person/
+    - assets/slider/
+    - assets/category/
+    - assets/aviator/
+    - assets/slotmachine/
+    - assets/medal/
+    - assets/dragontiger/
+    - assets/chips/
+    - assets/cards/
+    - assets/k3/
+
